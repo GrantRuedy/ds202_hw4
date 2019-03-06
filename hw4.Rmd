@@ -17,7 +17,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Chick weights
 
-**Submission instructions**: Create a folder named `ds202_hw4`, and name the RMarkDown file including your solutions `hw4.Rmd` under this folder. For the submission, create a GitHub repository named `ds202_hw4` under your GitHub account, and push both `hw4.Rmd` and the knitted `hw4.html` before the deadline. I will assume you use the same GitHub username as for your HW3 submission. The latest version of your homework appearing on GitHub before the deadline is graded. *It is crucial to follow the exact folder structure and file names*, so that your homework can be reproduced and graded by an automated script. This homework is **due on March 7** before class.
+
 
 ```{r}
 data("ChickWeight", package="datasets")
@@ -125,4 +125,3 @@ From my exploratory analysis I learned that for the weight gain variable, there 
 The first plot I made shows the weight gain over time, seperated by diet. From this I learned that most of the chicks gained a larger portion of weight in the last several weeks, versus in the beginning. This can be seen as the boxes are much wider as time pogresses. There is not a lot of seperation between the diets though. The next graph I made shows a boxplot of the weight gain for each different starting weight, seperated by diet. From this, I learned that chicks who started at weights of 39, 40, and 41 tended to gain the most weight. Also, there was not a noticable difference between the diets in terms of weight gain, but diet 3 did have the chicks with the most weight gain (over 300).
 
 
-Note: your submission is supposed to be fully reproducible, i.e. the TA and I will 'knit' your submission in RStudio. 
